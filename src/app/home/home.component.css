@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  color: #20a4f3;
+}
+
+.home .max-width {
+  margin: auto auto auto auto;
+}
+
+.home .home-content .text-1 {
+  align-items: center;
+  padding: 1em 0em 1em 0em;
+  font-size: 27px;
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}

@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0px;
+  background: #111112;
+}
+
+.navbar .width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar .width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: #c9c9c9;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+  color: #20a4f3;
+}
+
+.navbar .logo a {
+  color: #20a4f3;
+  font-size: 35px;
+  font-weight: 600;
+}

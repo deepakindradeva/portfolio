@@ -1,0 +1,53 @@
+/* about */
+.about {
+  display: flex;
+  flex-direction: row;
+  background-color: #182b3a;
+  background-image: linear-gradient(315deg, #20a4f3 60%, #182b3a 0%);
+
+  height: 100vh;
+  min-height: 500px;
+  color: #000000;
+}
+
+.about .left {
+  align-content: flex-start;
+}
+
+.about .right {
+  align-content: flex-end;
+}
+
+.about .right .header {
+  margin-top: 5em;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+}
+
+.about .left .image {
+  margin: 10em 0 0 5em;
+  width: 33em;
+  border-radius: 30px;
+}
+
+.about .right .textcontent {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  margin-top: 2em;
+  padding: 0 5em 0 5em;
+}
+.about .right .textcontent .list {
+  padding: 1em 0 0 10em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+tr td {
+  padding: 0.4em 2em 0 6em;
+  font-size: 18px;
+}
