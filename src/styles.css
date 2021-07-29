@@ -1,9 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: gilroy;
+  src: url(./assets/Gilroy-SemiBold.ttf);
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  text-decoration: none;
-  scroll-behavior: smooth;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
+}
+
+body,
+html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: gilroy;
 }

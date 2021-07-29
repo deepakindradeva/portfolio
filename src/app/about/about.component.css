@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   background-color: #182b3a;
-  background-image: linear-gradient(315deg, #20a4f3 60%, #182b3a 0%);
+  background-image: linear-gradient(270deg, #20a4f3 56%, #182b3a 0%);
 
   height: 100vh;
   min-height: 500px;
