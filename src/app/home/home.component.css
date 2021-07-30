@@ -17,12 +17,6 @@
   font-size: 27px;
 }
 
-.home .home-content .text-2 {
-  font-size: 100px;
-  font-weight: 600;
-  margin-left: -3px;
-}
-
 .grad {
   opacity: 0.2;
   position: fixed;
@@ -42,7 +36,7 @@
 
 h2 {
   width: 980px;
-  font-size: 60px;
+  font-size: 100px;
   margin: 0;
   letter-spacing: -0.02em;
   color: #e0e0e0;
